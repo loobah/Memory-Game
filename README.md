@@ -22,8 +22,10 @@ but there are ways to measure your performance!
 ### How to achieve better scores
 **Stars rating**
 The stars rating are based on the number of moves you make while attempting to match all the cards.
+
 **Time counter**
 The time counter is another way to see how fast you can go.
+
 **Number of moves**
 Try to nail it as quick as possible!
 
