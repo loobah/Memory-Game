@@ -142,7 +142,7 @@ function addMove() {
 
 // starts
 function checkScore() {
-  if (moves === 13 || moves === 22) {
+  if (moves === 13 || moves === 21) {
     fadeStar();
   }
 }
@@ -236,16 +236,19 @@ function congrats() {
   const starCounter = document.querySelectorAll('.fa-star').length;
   const finalTime = document.querySelector('.clock').textContent;
 
+  // reference from https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_clearinterval
+  clearInterval(gameInterval);
+
   swal({
   title: "You matched all the cards!",
-  text: "With " + moves + " moves.\n" + starCounter + " stars.\n" + "At time " + finalTime + ".\n\nPlay again?",
+  text: "With " + moves + " moves.\n" + starCounter + "/3 stars.\n" + "Total time: " + finalTime + ".\n\nPlay again?",
   icon: "success",
   buttons: true,
   dangerMode: false,
-})
+  })
   .then((willRestart) => {
   if (willRestart) {
     resetGame();
-  }
-});
+    }
+  });
 }
