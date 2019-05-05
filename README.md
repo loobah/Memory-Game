@@ -7,6 +7,10 @@ There are two ways to load the game at your browser window:
 1. Simply open the index.html file.
 
     index.html
+    
+    ### Install
+
+    $ npm install can.viewify
 
 2. Click at this [link](http://loobah.com/udacity/memorygame).
 
