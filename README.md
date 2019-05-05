@@ -3,16 +3,16 @@ Udacity Javascript Game Development
 
 Welcome to this Memory Game, my 1st ever JavaScript project!
 ## Install
-There are two ways to load the game at your browser window:
-1. Simply open the index.html file.
+
+### Install
+
+There are two options to get started!
+
+**1**. Open the file index.html at your Browser.
 
     index.html
-    
-    ### Install
 
-    $ npm install can.viewify
-
-2. Click at this [link](http://loobah.com/udacity/memorygame).
+**2**. Play online, clicking at this [link](http://loobah.com/udacity/memorygame).
 
 ## Instructions
 The game randomly shuffles the cards. A user wins once all cards have successfully been matched.
