@@ -4,8 +4,6 @@ Udacity Javascript Game Development
 Welcome to this Memory Game, my 1st ever JavaScript project!
 ## Install
 
-### Install
-
 There are two options to get started!
 
 **1**. Open the file index.html at your Browser.
